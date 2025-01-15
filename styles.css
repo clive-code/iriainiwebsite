@@ -322,7 +322,7 @@ header .navbar {
 }
 
 .menu-section .menu-list {
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 110px;
@@ -363,12 +363,18 @@ header .navbar {
 /* Gallery stylings */
 .gallery-section{
     padding: 50px 0 100px;
+    background: image-set(url(gallery/IMG_20250115_101539_763.jpg));
+    background-size: cover;
+    background-position: center;
+}
+.gallery-section h2{
+    color:white ;
 }
 
 .gallery-section .gallery-list{
     display: flex;
     flex-wrap: wrap;
-    gap: 32px;
+    gap: 20px;
 }
 
 .gallery-section .gallery-list .gallery-item{
@@ -385,7 +391,7 @@ header .navbar {
 }
 
 .gallery-section .gallery-item:hover .gallery-image{
-    transform: scale(1.3);
+    transform: scale(1.5);
 }
 
 /* contact section styling */
