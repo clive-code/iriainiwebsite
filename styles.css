@@ -363,7 +363,7 @@ header .navbar {
 /* Gallery stylings */
 .gallery-section{
     padding: 50px 0 100px;
-    background: image-set(url(gallery/IMG_20250115_101539_763.jpg));
+    background: image-set(url(IMG_20250115_101539_763.jpg));
     background-size: cover;
     background-position: center;
 }
